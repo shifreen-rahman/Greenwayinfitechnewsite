@@ -3340,3 +3340,227 @@ button {
 .home-stats-strip .home-mini-stat span {
   color: #8a969b;
 }
+/* =====================================================
+   HOME HERO - IMAGE AS BACKGROUND
+===================================================== */
+
+.home-hero {
+  position: relative;
+
+  background-image:
+    linear-gradient(
+      50deg,
+      #02060b 0%,
+      rgba(2, 6, 11, 0.96) -100%,
+      rgba(2, 6, 11, 0.55) -100%,
+      rgba(2, 6, 11, 0.15) 50%
+    ),
+    url("/images/home-hero.png");
+
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-size: 75% auto;
+}
+
+/* Remove the separate image box */
+.home-hero-visual {
+  display: none !important;
+}
+
+/* Give the text enough space over the background */
+.home-hero-container {
+  position: relative;
+  z-index: 2;
+}
+
+/* Keep the grid behind everything */
+.home-hero-grid {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+}
+
+/* =====================================================
+   ABOUT PAGE - IMAGE AS BACKGROUND
+===================================================== */
+
+.about-hero {
+  position: relative;
+
+  background-image:
+    linear-gradient(
+      90deg,
+      #02060b 0%,
+      rgba(2, 6, 11, 0.96) -90%,
+      rgba(2, 6, 11, 0.55) -90%,
+      rgba(2, 6, 11, 0.12) 100%
+    ),
+    url("/images/about-globe.png");
+
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-size: 65% auto;
+}
+
+/* Hide the separate About image */
+.about-hero-visual {
+  display: none !important;
+}
+
+/* Keep About text above background */
+.about-hero-container {
+  position: relative;
+  z-index: 2;
+}
+
+/* Keep grid behind everything */
+.about-hero-grid {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+}
+/* =====================================================
+   TRAINING PAGE - IMAGE AS BACKGROUND
+===================================================== */
+
+.training-hero {
+  position: relative;
+
+  background-image:
+    linear-gradient(
+      90deg,
+      #02060b 0%,
+      rgba(2, 6, 11, 0.96) -100%,
+      rgba(2, 6, 11, 0.55) -100%,
+      rgba(2, 6, 11, 0.1) 10%
+    ),
+    url("/images/training-book.png");
+
+  background-repeat: no-repeat;
+
+  background-position: right center;
+
+  background-size: 68% auto;
+}
+
+/* Hide the old separate image */
+.training-hero-visual {
+  display: none !important;
+}
+
+/* Keep Training content above background */
+.training-hero-container {
+  position: relative;
+
+  z-index: 2;
+}
+
+/* Keep background grid behind content */
+.training-hero-grid {
+  position: absolute;
+
+  inset: 0;
+
+  z-index: 1;
+}
+/* =====================================================
+   TRAINING PAGE - IMAGE ABOVE CARDS
+===================================================== */
+
+.training-hero {
+  position: relative;
+
+  background-image:
+    linear-gradient(
+      90deg,
+      #02060b 0%,
+      rgba(2, 6, 11, 0.92) -80%,
+      rgba(2, 6, 11, 0.35) -50%,
+      rgba(2, 6, 11, 0.1) 100%
+    ),
+    url("/images/training-book.png");
+
+  background-repeat: no-repeat;
+
+  background-position: right top;
+
+  background-size: 54% auto;
+
+  padding-bottom: 40px;
+}
+
+/* Keep the heading/content above */
+.training-hero-container {
+  position: relative;
+
+  z-index: 5;
+}
+
+/* Move cards below the image */
+.training-cards {
+  position: relative;
+
+  z-index: 10;
+
+  margin-top: 20px;
+}
+
+/* Make cards clearly visible */
+.training-card {
+  position: relative;
+
+  z-index: 20;
+
+  background: rgba(3, 12, 20, 0.96);
+}
+
+/* Don't show the old separate image */
+.training-hero-visual {
+  display: none !important;
+}
+/* =====================================================
+   CONTACT PAGE - GLOBE BACKGROUND
+===================================================== */
+
+.contact-page {
+  position: relative;
+  overflow: hidden;
+}
+
+/* Contact main section */
+
+.contact-hero {
+  position: relative;
+  overflow: hidden;
+
+  background-image:
+    linear-gradient(
+      90deg,
+      rgba(1, 7, 12, 0.98) -50%,
+      rgba(1, 7, 12, 0.9) -100%,
+      rgba(1, 7, 12, 0.55) -70%,
+      rgba(1, 7, 12, 0.35) 100%
+    ),
+    url("/images/contact-globe.png");
+
+  background-repeat: no-repeat;
+
+  background-position: right center;
+
+  background-size: 58% auto;
+
+  min-height: 500px;
+}
+
+/* Keep content above background */
+
+.contact-hero-container {
+  position: relative;
+  z-index: 2;
+}
+
+/* Hide the old separate image */
+
+.contact-hero-visual {
+  display: none !important;
+}

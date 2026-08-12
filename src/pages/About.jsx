@@ -44,11 +44,6 @@ function About() {
 
           <div className="about-visual">
             <div className="about-image-glow"></div>
-
-            <img
-              src="/images/about-globe.png"
-              alt="GreenWay Infitech Innovation"
-            />
           </div>
         </div>
       </section>

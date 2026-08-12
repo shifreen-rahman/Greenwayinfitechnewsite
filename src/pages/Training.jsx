@@ -93,8 +93,6 @@ function Training() {
 
           <div className="training-visual">
             <div className="training-image-glow"></div>
-
-            <img src="/images/training-book.png" alt="Future Ready Training" />
           </div>
         </div>
 

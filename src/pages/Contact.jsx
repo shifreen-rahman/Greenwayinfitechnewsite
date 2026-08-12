@@ -48,7 +48,7 @@ function Contact() {
               </div>
 
               <div className="contact-detail">
-                <div className="contact-detail-icon">◉</div>
+                <div className="contact-detail-icon">🌐</div>
 
                 <div>
                   <span>Website</span>
@@ -57,7 +57,7 @@ function Contact() {
               </div>
 
               <div className="contact-detail">
-                <div className="contact-detail-icon">◇</div>
+                <div className="contact-detail-icon">📍</div>
 
                 <div>
                   <span>Location</span>
@@ -72,20 +72,25 @@ function Contact() {
               <span>Follow Us</span>
 
               <div className="social-icons">
-                <a href="#" aria-label="LinkedIn">
+                <a
+                  href="https://www.linkedin.com/in/greenway-infitech-699658417/"
+                  aria-label="LinkedIn"
+                >
                   in
                 </a>
 
-                <a href="#" aria-label="Instagram">
+                <a
+                  href="https://www.instagram.com/greenway_infi_tech/"
+                  aria-label="Instagram"
+                >
                   ◎
                 </a>
 
-                <a href="#" aria-label="Facebook">
+                <a
+                  href="https://www.facebook.com/profile.php?id=61590704291245"
+                  aria-label="Facebook"
+                >
                   f
-                </a>
-
-                <a href="#" aria-label="YouTube">
-                  ▶
                 </a>
               </div>
             </div>
@@ -116,11 +121,6 @@ function Contact() {
 
           <div className="contact-visual">
             <div className="contact-image-glow"></div>
-
-            <img
-              src="/images/contact-globe.png"
-              alt="GreenWay Infitech Global Technology"
-            />
           </div>
         </div>
 
