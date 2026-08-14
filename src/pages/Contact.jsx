@@ -1,40 +1,47 @@
+import { Link } from "react-router-dom";
+
 function Contact() {
   return (
     <main className="contact-page">
-      {/* =========================
-          CONTACT HERO
-      ========================= */}
-
       <section className="contact-hero">
         <div className="contact-grid"></div>
 
         <div className="contact-container">
-          {/* LEFT CONTENT */}
+          {/* =========================
+              LEFT SIDE
+          ========================= */}
 
           <div className="contact-content">
             <div className="section-label">CONTACT US</div>
 
             <h1>
-              Let's Build the
+              Have a Business Challenge?
               <br />
-              Future Together
+              <span className="contact-highlight">
+                Let's Solve It
+                <br />
+                Together.
+              </span>
             </h1>
 
             <p>
-              Have a project in mind or need more information?
+              Tell us what's slowing your business down,
               <br />
-              We'd love to hear from you.
+              what you want to improve, or what you want to
+              <br />
+              build.
+              <br />
+              Let's explore how technology can help.
             </p>
-
-            {/* CONTACT DETAILS */}
 
             <div className="contact-details">
               <div className="contact-detail">
                 <div className="contact-detail-icon">☎</div>
 
                 <div>
-                  <span>Phone</span>
-                  <strong>+91 8022 738 767</strong>
+                  <strong>Phone</strong>
+                  <span>+91 95003 24423</span>
+                  <span>+91 80727 38767</span>
                 </div>
               </div>
 
@@ -42,17 +49,17 @@ function Contact() {
                 <div className="contact-detail-icon">@</div>
 
                 <div>
-                  <span>Email</span>
-                  <strong>info@greenwayinfitech.com</strong>
+                  <strong>Email</strong>
+                  <span>info@greenwayinfitech.com</span>
                 </div>
               </div>
 
               <div className="contact-detail">
-                <div className="contact-detail-icon">🌐</div>
+                <div className="contact-detail-icon">◎</div>
 
                 <div>
-                  <span>Website</span>
-                  <strong>www.greenwayinfitech.com</strong>
+                  <strong>Website</strong>
+                  <span>www.greenwayinfitech.com</span>
                 </div>
               </div>
 
@@ -60,28 +67,30 @@ function Contact() {
                 <div className="contact-detail-icon">📍</div>
 
                 <div>
-                  <span>Location</span>
-                  <strong>Chennai, Tamil Nadu, India</strong>
+                  <strong>Location</strong>
+                  <span>Coimbatore, Tamil Nadu, India</span>
                 </div>
               </div>
             </div>
 
-            {/* SOCIAL */}
+            {/* SOCIAL MEDIA */}
 
             <div className="contact-social">
-              <span>Follow Us</span>
+              <h3>Follow Us</h3>
 
-              <div className="social-icons">
+              <div className="contact-social-links">
                 <a
                   href="https://www.linkedin.com/in/greenway-infitech-699658417/"
-                  aria-label="LinkedIn"
+                  target="_blank"
+                  rel="noreferrer"
                 >
                   in
                 </a>
 
                 <a
                   href="https://www.instagram.com/greenway_infi_tech/"
-                  aria-label="Instagram"
+                  target="_blank"
+                  rel="noreferrer"
                 >
                   ◎
                 </a>
@@ -96,54 +105,51 @@ function Contact() {
             </div>
           </div>
 
-          {/* CONTACT FORM */}
+          {/* =========================
+              CENTER CONTACT FORM
+          ========================= */}
 
           <div className="contact-form-wrapper">
-            <h2>Send Us a Message</h2>
+            <div className="contact-form-icon">◌</div>
+
+            <h2>Tell Us About Your Challenge</h2>
+
+            <div className="contact-form-line"></div>
 
             <form>
-              <input type="text" placeholder="Your Name" />
+              <div className="contact-input">
+                <span>♙</span>
+                <input type="text" placeholder="Your Name" />
+              </div>
 
-              <input type="email" placeholder="Your Email" />
+              <div className="contact-input">
+                <span>@</span>
+                <input type="email" placeholder="Your Email" />
+              </div>
 
-              <input type="tel" placeholder="Phone Number" />
+              <div className="contact-input">
+                <span>☎</span>
+                <input type="tel" placeholder="Phone Number" />
+              </div>
 
-              <textarea placeholder="Your Message" rows="5"></textarea>
+              <div className="contact-input contact-message">
+                <span>◌</span>
 
-              <button type="submit" className="btn-green">
-                Send Message
+                <textarea placeholder="How Can We Help?"></textarea>
+              </div>
+
+              <button type="submit" className="contact-submit">
+                Start the Conversation
                 <span>→</span>
               </button>
             </form>
           </div>
 
-          {/* RIGHT IMAGE */}
+          {/* =========================
+              RIGHT GLOBE
+          ========================= */}
 
-          <div className="contact-visual">
-            <div className="contact-image-glow"></div>
-          </div>
-        </div>
-
-        {/* =========================
-            BOTTOM CTA
-        ========================= */}
-
-        <div className="contact-bottom-cta">
-          <div className="contact-bottom-icon">◉</div>
-
-          <div>
-            <h2>We're Here to Help You Succeed.</h2>
-
-            <p>
-              Partner with us to transform your ideas into intelligent
-              solutions.
-            </p>
-          </div>
-
-          <a href="#contact-form" className="btn-green">
-            Book Free Consultation
-            <span>→</span>
-          </a>
+          <div className="contact-visual"></div>
         </div>
       </section>
     </main>

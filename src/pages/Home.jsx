@@ -17,33 +17,30 @@ function Home() {
             <div className="home-eyebrow">
               AI ISN'T THE FUTURE.
               <br />
-              <span>— IT'S THE DOORWAY.</span>
+              <span> IT'S THE DOORWAY.</span>
             </div>
 
             <h1>
-              WE DON'T JUST
+              Ai That Works,
               <br />
-              ADAPT TO AI.
+              For People
               <br />
-              <span>WE BUILD</span>
-              <br />
-              <span>WHAT'S NEXT.</span>
+              <span>Not Instead Of Them.</span>
             </h1>
 
             <p>
-              We help businesses unlock the power of Artificial Intelligence,
-              Automation, Data Science, and Digital Transformation to create
-              intelligent solutions for a smarter tomorrow.
+              AUTOMATE THE GRIND. AMPLIFY THE GENIUS. We wire AI into your
+              workflow and your team gets back to what only they can do.
             </p>
 
             <div className="home-hero-buttons">
               <Link to="/contact" className="btn-green">
-                Book Free Consultation
+                Book a Free Consultation
                 <span>→</span>
               </Link>
 
               <Link to="/services" className="btn-outline">
-                Explore Our Services
+                Explore Our Solutions
                 <span>→</span>
               </Link>
             </div>

@@ -4,38 +4,44 @@ const blogPosts = [
   {
     image: "/images/blog-ai.png",
     category: "AI & BUSINESS",
-    date: "May 10, 2024",
-    title: "The Future of AI in Business: Trends to Watch",
+    title: "How AI Is Changing the Way Businesses Work",
+    detail:
+      "Explore how businesses are using AI to automate work, improve decisions, and create new opportunities.",
   },
   {
     image: "/images/blog-chatbot.png",
-    category: "AI CHATBOTS",
-    date: "May 03, 2024",
-    title: "How AI Chatbots Improve Customer Experience",
+    category: "Customer Experience",
+    title: "How AI Is Changing Customer Experience",
+    detail:
+      "Discover how AI assistants, personalization, and intelligent automation are helping businesses serve customers better.",
   },
   {
     image: "/images/blog-data.png",
-    category: "DATA SCIENCE",
-    date: "Apr 28, 2024",
-    title: "Data Science: Turning Data into Business Value",
+    category: "Data & Decisions",
+    title: "From Business Data to Better Decisions",
+    detail:
+      "See how businesses can turn everyday data into insights that reveal patterns, opportunities, and smarter decisions.",
   },
   {
     image: "/images/blog-marketing.png",
-    category: "MARKETING",
-    date: "Apr 20, 2024",
-    title: "AI in Digital Marketing: Smarter Campaigns",
+    category: "AI-Powered Marketing",
+    title: "How AI Is Making Marketing Smarter",
+    detail:
+      "Explore how AI can help businesses understand customers, create better campaigns, and improve marketing performance.",
   },
   {
     image: "/images/blog-devops.png",
-    category: "DEVOPS",
-    date: "Apr 15, 2024",
-    title: "The Role of DevOps in Modern Software Delivery",
+    category: "DevOps & Technology",
+    title: "How AI Is Changing Software Delivery",
+    detail:
+      "Discover how AI and modern DevOps practices are helping teams build, test, deploy, and manage technology more efficiently.",
   },
   {
     image: "/images/blog-automation.png",
-    category: "AUTOMATION",
-    date: "Apr 10, 2024",
-    title: "Why Businesses Need AI Automation Now",
+    category: "Business Automation",
+    title: "Where AI Can Automate Your Business",
+    detail:
+      "Explore everyday business tasks and processes where AI can reduce manual work, improve efficiency, and free your team for higher-value work.",
   },
 ];
 
@@ -52,11 +58,12 @@ function Blog() {
         <div className="blog-header">
           <div className="section-label">OUR BLOG</div>
 
-          <h1>Insights, Trends & Innovations</h1>
+          <h1>Ideas, Insights & What’s Next in Technology</h1>
 
           <p>
-            Stay updated with the latest insights, trends, and innovations in
-            AI, Data Science, and Digital Transformation.
+            Discover practical ideas, emerging trends, and real-world
+            applications showing how AI, data, and technology are transforming
+            the way businesses work, make decisions, and grow.
           </p>
         </div>
 
@@ -74,11 +81,11 @@ function Blog() {
               <div className="blog-card-content">
                 <div className="blog-meta">
                   <span>{post.category}</span>
-
-                  <small>{post.date}</small>
                 </div>
 
                 <h2>{post.title}</h2>
+
+                <p className="blog-detail">{post.detail}</p>
 
                 <Link to="/contact" className="blog-read">
                   Read More →

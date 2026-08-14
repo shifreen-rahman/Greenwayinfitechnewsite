@@ -18,9 +18,9 @@ function Navbar() {
 
           <NavLink to="/about">About Us</NavLink>
 
-          <NavLink to="/services">Services</NavLink>
+          <NavLink to="/services">Solutions</NavLink>
 
-          <NavLink to="/training">Training</NavLink>
+          <NavLink to="/training">Internship</NavLink>
 
           <NavLink to="/blog">Blog</NavLink>
 
@@ -30,7 +30,7 @@ function Navbar() {
         {/* CTA */}
 
         <Link to="/contact" className="navbar-consult">
-          Book Free Consultation
+          Book a Free Consultation
           <span>→</span>
         </Link>
       </div>

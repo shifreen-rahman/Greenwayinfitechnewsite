@@ -2,44 +2,44 @@ import { Link } from "react-router-dom";
 
 const services = [
   {
-    icon: "◌",
-    title: "AI Automation",
-    text: "Automate repetitive tasks and streamline operations with intelligent AI solutions.",
+    icon: "◉",
+    title: "AI & Business Automation",
+    text: "Automate repetitive work, streamline workflows, and help your teams accomplish more with intelligent AI-powered solutions.",
   },
   {
-    icon: "▥",
-    title: "Data Science",
-    text: "Extract meaningful insights from data and drive smarter business decisions.",
+    icon: "⌬",
+    title: "Machine Learning Solutions",
+    text: "Build intelligent systems that learn from your business data to predict outcomes, generate recommendations, classify information, and support better decisions.",
   },
   {
-    icon: "▣",
-    title: "AI Chatbots",
-    text: "Build intelligent, conversational AI agents that engage customers 24/7.",
+    icon: "▤",
+    title: "Data Science & Analytics",
+    text: "Turn complex business data into clear insights, uncover meaningful patterns, and identify opportunities for smarter decision-making.",
   },
   {
-    icon: "◎",
-    title: "AI Digital Marketing",
-    text: "AI-powered marketing strategies that boost engagement and deliver measurable results.",
+    icon: "♙",
+    title: "AI Chatbots & Intelligent Assistants",
+    text: "Create intelligent assistants that support customers, empower employees, and strengthen business operations around the clock.",
   },
   {
-    icon: "♧",
-    title: "Business Consulting",
-    text: "Strategic guidance to innovate, transform and achieve sustainable growth.",
-  },
-  {
-    icon: "◇",
-    title: "Industry Training",
-    text: "Future-ready training programs in AI, Data Science, DevOps and emerging technologies.",
-  },
-  {
-    icon: "</>",
-    title: "Software Development",
-    text: "Custom software solutions designed to solve real-world business challenges.",
+    icon: "⟳",
+    title: "Custom AI Business Solutions",
+    text: "Design and develop practical AI solutions around your unique challenges—from everyday processes to complex business operations.",
   },
   {
     icon: "☁",
-    title: "Cloud Solutions",
-    text: "Scalable and secure cloud solutions to modernize your infrastructure.",
+    title: "DevOps & Cloud Engineering",
+    text: "Build reliable, scalable, and efficient technology environments that help your applications perform securely and your business operate smoothly.",
+  },
+  {
+    icon: "↗",
+    title: "AI-Powered Digital Marketing",
+    text: "Use AI to understand your audience, create smarter campaigns, personalize customer experiences, and improve marketing performance.",
+  },
+  {
+    icon: "⌖",
+    title: "AI Strategy & Consulting",
+    text: "Identify where AI, data, automation, and modern technology can create the greatest value for your business and define a practical path forward.",
   },
 ];
 
@@ -54,13 +54,15 @@ function Services() {
         <div className="services-grid"></div>
 
         <div className="services-header">
-          <div className="section-label">OUR SERVICES</div>
+          <div className="section-label">OUR SOLUTIONS</div>
 
-          <h1>AI-Powered Solutions for Every Business Need</h1>
+          <h1>Technology That Solves Real Business Problems</h1>
 
           <p>
-            We empower businesses to innovate, automate, and grow with
-            intelligent solutions designed for the future.
+            From AI, Machine Learning, and automation to Data Science and
+            DevOps, we build practical technology solutions aligned with your
+            business needs helping you work smarter, operate more efficiently,
+            and grow with confidence.
           </p>
         </div>
 
@@ -90,15 +92,19 @@ function Services() {
 
         <div className="services-cta">
           <div className="services-cta-content">
-            <h2>Ready to Transform Your Business?</h2>
+            <h2>Have a Business Challenge? Let’s Solve It Together.</h2>
 
             <p>
-              Let's build intelligent solutions that drive growth and create
-              lasting impact.
+              Tell us what’s slowing your business down. We’ll explore how AI,
+              data, automation,
+              <br /> and modern technology can help you work smarter, operate
+              more efficiently,
+              <br />
+              and move forward with confidence.
             </p>
 
             <Link to="/contact" className="btn-green">
-              Book Free Consultation
+              Book a Free Consultation
               <span>→</span>
             </Link>
           </div>
