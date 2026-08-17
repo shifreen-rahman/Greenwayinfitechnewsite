@@ -2387,7 +2387,7 @@ button {
 .training-cta-text h2 {
   color: var(--white);
 
-  font-size: 20px;
+  font-size: 25px;
 
   font-weight: 800;
 }
@@ -2399,9 +2399,9 @@ button {
 .training-cta-text p {
   margin-top: 10px;
 
-  color: #7b878c;
+  color: #4cb8e7;
 
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .training-cta .btn-green {
