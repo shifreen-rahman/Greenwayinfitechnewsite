@@ -92,7 +92,11 @@ function Services() {
 
         <div className="services-cta">
           <div className="services-cta-content">
-            <h2>Have a Business Challenge? Let’s Solve It Together.</h2>
+            <h2>
+              Have a Business Challenge? Let’s Solve It Together.
+              <br />
+              Your First Consultation Is Complimentary.
+            </h2>
 
             <p>
               Tell us what’s slowing your business down. We’ll explore how AI,
@@ -104,7 +108,7 @@ function Services() {
             </p>
 
             <Link to="/contact" className="btn-green">
-              Book a Free Consultation
+              Start a Free Conversation
               <span>→</span>
             </Link>
           </div>

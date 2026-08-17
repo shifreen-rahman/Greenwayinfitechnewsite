@@ -17,9 +17,9 @@ function About() {
             <div className="section-label">ABOUT US</div>
 
             <h1>
-              WE MAKE BUSINESS SMARTER,
+              We Make Business Smarter,
               <br />
-              SIMPLER, <span>AND MORE EFFICIENT</span>
+              Simpler, <span>And More Effecient</span>
             </h1>
 
             <p>

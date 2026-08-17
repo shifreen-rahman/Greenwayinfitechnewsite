@@ -8,7 +8,7 @@ function Navbar() {
         {/* LOGO */}
 
         <Link to="/" className="navbar-logo">
-          <img src="/images/greenway-logo.png" height={100}></img>
+          <img src="/images/greenway-logo.png" height={90} width={400}></img>
         </Link>
 
         {/* NAVIGATION */}

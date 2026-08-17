@@ -456,7 +456,7 @@ button {
 
   border-top: 1px solid rgba(255, 255, 255, 0.08);
 
-  color: #596468;
+  color: #d0e1e8;
 
   font-size: 15px;
 
@@ -520,7 +520,7 @@ button {
 }
 
 .home-stat span {
-  color: #748084;
+  color: #d9ecf2;
 
   font-size: 10px;
 
@@ -722,7 +722,7 @@ button {
 /* EYEBROW */
 
 .home-eyebrow {
-  color: #aeb8bd;
+  color: #cfdadf;
 
   font-size: 11px;
 
@@ -918,7 +918,7 @@ button {
 }
 
 .home-mini-stat span {
-  color: #768186;
+  color: #acbcc4;
 
   font-size: 6px;
 
@@ -926,7 +926,7 @@ button {
 
   text-transform: uppercase;
 
-  letter-spacing: 0.6px;
+  letter-spacing: 0.8px;
 }
 
 /* =====================================================
@@ -1196,7 +1196,7 @@ button {
 
   margin-top: 23px;
 
-  color: #9aa4a8;
+  color: #c5cdd0;
 
   font-size: 13px;
 
@@ -1228,7 +1228,7 @@ button {
 
   border-color: #02e5f5;
 
-  color: #061000;
+  color: #000b0e;
 
   font-size: 11px;
 
@@ -1242,9 +1242,9 @@ button {
 
   font-size: 11px;
 
-  border-color: rgba(255, 255, 255, 0.2);
+  border-color: rgba(240, 249, 250, 0.2);
 
-  color: #f5f7f8;
+  color: #229edc;
 }
 
 /* =====================================================
@@ -1571,11 +1571,11 @@ button {
 .about-content h1 {
   margin-top: 10px;
 
-  font-size: clamp(20px, 3.5vw, 40px);
+  font-size: clamp(20px, 3.5vw, 39px);
 
   line-height: 1.02;
 
-  letter-spacing: -2.5px;
+  letter-spacing: 0px;
 
   font-weight: 800;
 
@@ -1587,13 +1587,13 @@ button {
 }
 
 .about-content p {
-  max-width: 520px;
+  max-width: 510px;
 
-  margin-top: 16px;
+  margin-top: 13px;
 
-  color: #c7d4db;
+  color: #d4e2e9;
 
-  font-size: 12px;
+  font-size: 14px;
 
   line-height: 1.8;
 }
@@ -1603,7 +1603,7 @@ button {
 
   min-height: 45px;
 
-  font-size: 15px;
+  font-size: 13px;
 }
 
 /* =====================================================
@@ -1674,7 +1674,7 @@ button {
 
 .why-header p {
   margin-top: 12px;
-  color: #b6c1c6;
+  color: #cdd8de;
   font-size: 14px;
   line-height: 1.8;
 }
@@ -1724,7 +1724,7 @@ button {
 
 .why-card p {
   margin-top: 14px;
-  color: #788389;
+  color: #cadbe3;
   font-size: 10px;
   line-height: 1.7;
 }
@@ -1855,7 +1855,7 @@ button {
 
   margin: 12px auto 0;
 
-  color: #879298;
+  color: #afbdc5;
 
   font-size: 15px;
 
@@ -1931,7 +1931,7 @@ button {
 .service-card p {
   margin-top: 9px;
 
-  color: #7f8b90;
+  color: #b1c2c9;
 
   font-size: 13px;
 
@@ -2009,7 +2009,7 @@ button {
 .services-cta p {
   margin-top: 7px;
 
-  color: #879298;
+  color: #abbac2;
 
   font-size: 14px;
 
@@ -2031,11 +2031,11 @@ button {
 
   right: 0;
 
-  top: 53%;
+  top: 59%;
 
   width: 390px;
 
-  height: 200px;
+  height: 230px;
 
   transform: translateY(-50%);
 
@@ -2208,7 +2208,7 @@ button {
 
   margin-top: 10px;
 
-  color: #879298;
+  color: #bac9d1;
 
   font-size: 16px;
 
@@ -2275,7 +2275,7 @@ button {
 .training-card p {
   margin-top: 7px;
 
-  color: #899499;
+  color: #bbcad2;
 
   font-size: 10px;
 
@@ -2558,7 +2558,7 @@ button {
 
   margin: 12px auto 0;
 
-  color: #899499;
+  color: #beced6;
 
   font-size: 15px;
 
@@ -2606,7 +2606,7 @@ button {
 .blog-card:hover {
   transform: translateY(-4px);
 
-  border-color: rgba(143, 212, 0, 0.55);
+  border-color: rgba(55, 206, 248, 0.55);
 }
 
 /* =====================================================
@@ -2618,7 +2618,7 @@ button {
 
   width: 100%;
 
-  height: 170px;
+  height: 240px;
 
   overflow: hidden;
 
@@ -2734,7 +2734,7 @@ button {
 
   gap: 10px;
 
-  border: 1px solid rgba(143, 212, 0, 0.55);
+  border: 1px solid rgba(35, 198, 243, 0.55);
 
   border-radius: 8px;
 
@@ -2875,7 +2875,7 @@ button {
 .contact-content > p {
   margin-top: 14px;
 
-  color: #899499;
+  color: #b3c3ca;
 
   font-size: 13px;
 
@@ -3340,7 +3340,7 @@ button {
 
 /* Keep the small description text unchanged */
 .home-stats-strip .home-mini-stat span {
-  color: #8a969b;
+  color: #d7e4ea;
 }
 /* =====================================================
    HOME HERO - IMAGE AS BACKGROUND
@@ -3832,7 +3832,7 @@ button {
 .why-card p {
   margin: 0;
 
-  color: #91a1ae;
+  color: #c2ced8;
 
   font-size: 13px;
 
@@ -4115,7 +4115,7 @@ button {
 
   line-height: 1.65;
 
-  color: #91a0ae;
+  color: #bdc9d4;
 }
 
 /* =========================================================
@@ -4354,7 +4354,7 @@ button {
 
   line-height: 1.65;
 
-  color: #91a0ae;
+  color: #b9c5d0;
 }
 
 /* =========================================
@@ -4416,7 +4416,7 @@ button {
 }
 .blog-detail {
   margin-top: 10px;
-  color: #919ba0;
+  color: #bdccd3;
   font-size: 13px;
   line-height: 1.6;
 }
@@ -4619,7 +4619,7 @@ button {
 
   max-width: 470px;
 
-  color: #91a5b8;
+  color: #c3cfdb;
 
   font-size: 17px;
   line-height: 1.6;
@@ -5060,7 +5060,7 @@ button {
   .contact-content h1 {
     max-width: 600px;
 
-    font-size: 46px;
+    font-size: 40px;
   }
 
   .contact-form-wrapper {
@@ -5425,7 +5425,7 @@ button {
   .contact-content h1 {
     max-width: 100% !important;
 
-    font-size: 40px !important;
+    font-size: 39px !important;
   }
 
   .contact-form-wrapper {

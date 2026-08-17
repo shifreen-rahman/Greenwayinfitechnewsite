@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const blogPosts = [
   {
     image: "/images/blog-ai.png",
-    category: "AI & BUSINESS",
+    category: "AI & Business",
     title: "How AI Is Changing the Way Businesses Work",
     detail:
       "Explore how businesses are using AI to automate work, improve decisions, and create new opportunities.",

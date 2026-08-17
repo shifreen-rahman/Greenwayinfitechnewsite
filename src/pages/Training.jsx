@@ -123,13 +123,16 @@ function Training() {
 
           <div className="training-cta-text">
             <h2>
-              Build Experience Today.
-              <span> Shape Your Future Tomorrow.</span>
+              Continue Your Internship
+              <span> Continue Your Journey.</span>
             </h2>
 
             <p>
-              Gain practical experience, work on real-world projects, and build
-              the skills needed to become industry-ready.
+              Your learning does not have to stop when your internship ends.
+              Stay connected for continued guidance,
+              <br />
+              project support, and opportunities to strengthen your technical
+              capabilities.
             </p>
           </div>
 

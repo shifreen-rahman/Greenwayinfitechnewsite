@@ -38,9 +38,13 @@
 
   align-items: center;
 
+  margin-top: 1%;
+
+  margin-left: -2%;
+
   gap: 9px;
 
-  min-width: 205px;
+  min-width: 300px;
 
   text-decoration: none;
 }
