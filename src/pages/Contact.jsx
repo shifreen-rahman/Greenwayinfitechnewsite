@@ -1,6 +1,30 @@
 import { Link } from "react-router-dom";
 
 function Contact() {
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    const formData = new FormData(e.target);
+
+    const name = formData.get("name");
+    const email = formData.get("email");
+    const phone = formData.get("phone");
+    const message = formData.get("message");
+
+    const whatsappMessage = `Hello GreenWay Infitech,
+
+Name: ${name}
+Email: ${email}
+Phone: ${phone}
+Requirement: ${message}`;
+
+    const whatsappURL = `https://wa.me/918072738767?text=${encodeURIComponent(
+      whatsappMessage,
+    )}`;
+
+    window.open(whatsappURL, "_blank");
+  };
+
   return (
     <main className="contact-page">
       <section className="contact-hero">
@@ -116,26 +140,45 @@ function Contact() {
 
             <div className="contact-form-line"></div>
 
-            <form>
+            <form onSubmit={handleSubmit}>
               <div className="contact-input">
                 <span>♙</span>
-                <input type="text" placeholder="Your Name" />
+                <input
+                  type="text"
+                  name="name"
+                  placeholder="Your Name"
+                  required
+                />
               </div>
 
               <div className="contact-input">
                 <span>@</span>
-                <input type="email" placeholder="Your Email" />
+                <input
+                  type="email"
+                  name="email"
+                  placeholder="Your Email"
+                  required
+                />
               </div>
 
               <div className="contact-input">
                 <span>☎</span>
-                <input type="tel" placeholder="Phone Number" />
+                <input
+                  type="tel"
+                  name="phone"
+                  placeholder="Phone Number"
+                  required
+                />
               </div>
 
               <div className="contact-input contact-message">
                 <span>◌</span>
 
-                <textarea placeholder="How Can We Help?"></textarea>
+                <textarea
+                  name="message"
+                  placeholder="How Can We Help?"
+                  required
+                ></textarea>
               </div>
 
               <button type="submit" className="contact-submit">
