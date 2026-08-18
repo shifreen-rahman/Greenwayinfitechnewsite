@@ -29,10 +29,15 @@ function Navbar() {
 
         {/* CTA */}
 
-        <Link to="/contact" className="navbar-consult">
+        <a
+          href="https://wa.me/918072738767?text=Hello%20GreenWay%20Infitech,%20I%20would%20like%20to%20book%20a%20free%20consultation."
+          target="_blank"
+          rel="noreferrer"
+          className="header-cta"
+        >
           Book a Free Consultation
           <span>→</span>
-        </Link>
+        </a>
       </div>
     </header>
   );
