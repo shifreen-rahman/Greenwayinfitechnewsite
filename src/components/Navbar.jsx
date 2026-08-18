@@ -29,15 +29,20 @@ function Navbar() {
 
         {/* CTA */}
 
-        <a
-          href="https://wa.me/918072738767?text=Hello%20GreenWay%20Infitech,%20I%20would%20like%20to%20book%20a%20free%20consultation."
-          target="_blank"
-          rel="noreferrer"
-          className="header-cta"
+        <Link
+          to="/contact"
+          className="navbar-consult"
+          onClick={(e) => {
+            e.preventDefault();
+            window.open(
+              "https://wa.me/918072738767?text=Hello%20GreenWay%20Infitech,%20I%20would%20like%20to%20book%20a%20free%20consultation.",
+              "_blank",
+            );
+          }}
         >
           Book a Free Consultation
           <span>→</span>
-        </a>
+        </Link>
       </div>
     </header>
   );
