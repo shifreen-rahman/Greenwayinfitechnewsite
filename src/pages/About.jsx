@@ -75,10 +75,11 @@ function About() {
           {/* CARD 1 */}
 
           <div className="why-card">
-            <div className="why-icon">
-              <svg viewBox="0 0 64 64">
-                <path d="M32 8 L37 25 L56 32 L37 39 L32 56 L27 39 L8 32 L27 25 Z" />
-              </svg>
+            <div className="why-card-image">
+              <img
+                src="/images/about-automation.png"
+                alt="Simplify and Automate Your Operations"
+              />
             </div>
 
             <h3>
@@ -100,11 +101,11 @@ function About() {
           {/* CARD 2 */}
 
           <div className="why-card">
-            <div className="why-icon">
-              <svg viewBox="0 0 64 64">
-                <path d="M8 22 H25 L37 32 L25 42 H8" />
-                <path d="M25 22 H40 L56 32 L40 42 H25" />
-              </svg>
+            <div className="why-card-image">
+              <img
+                src="/images/about-data.png"
+                alt="Turn Data into Better Decisions"
+              />
             </div>
 
             <h3>
@@ -126,11 +127,11 @@ function About() {
           {/* CARD 3 */}
 
           <div className="why-card">
-            <div className="why-icon">
-              <svg viewBox="0 0 64 64">
-                <polygon points="32,8 49,18 49,46 32,56 15,46 15,18" />
-                <rect x="25" y="25" width="14" height="14" />
-              </svg>
+            <div className="why-card-image">
+              <img
+                src="/images/about-ai.png"
+                alt="Build Intelligent Business Solutions"
+              />
             </div>
 
             <h3>
@@ -151,15 +152,11 @@ function About() {
           {/* CARD 4 */}
 
           <div className="why-card">
-            <div className="why-icon">
-              <svg viewBox="0 0 64 64">
-                <circle cx="32" cy="32" r="16" />
-                <circle cx="32" cy="32" r="6" />
-                <path d="M32 5 V16" />
-                <path d="M32 48 V59" />
-                <path d="M5 32 H16" />
-                <path d="M48 32 H59" />
-              </svg>
+            <div className="why-card-image">
+              <img
+                src="/images/about-strategy.png"
+                alt="Solve the Right Business Problem"
+              />
             </div>
 
             <h3>
@@ -181,11 +178,11 @@ function About() {
           {/* CARD 5 */}
 
           <div className="why-card">
-            <div className="why-icon">
-              <svg viewBox="0 0 64 64">
-                <path d="M32 7 L52 15 V30 C52 43 43 52 32 57 C21 52 12 43 12 30 V15 Z" />
-                <path d="M22 32 L29 39 L43 24" />
-              </svg>
+            <div className="why-card-image">
+              <img
+                src="/images/about-reliable.png"
+                alt="Create Reliable Technology Foundations"
+              />
             </div>
 
             <h3>
@@ -206,13 +203,11 @@ function About() {
           {/* CARD 6 */}
 
           <div className="why-card">
-            <div className="why-icon">
-              <svg viewBox="0 0 64 64">
-                <path d="M16 45 C10 42 9 34 14 30 C12 20 20 14 28 17 C33 8 48 11 49 22 C57 23 59 34 52 39 C49 42 44 44 39 44 H20" />
-                <path d="M29 35 L42 22" />
-                <path d="M42 22 H35" />
-                <path d="M42 22 V29" />
-              </svg>
+            <div className="why-card-image">
+              <img
+                src="/images/about-cloud.png"
+                alt="Deliver Practical, Measurable Results"
+              />
             </div>
 
             <h3>

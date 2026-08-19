@@ -2,44 +2,36 @@ import { Link } from "react-router-dom";
 
 const trainingPrograms = [
   {
-    icon: "◉",
-    title: "Artificial Intelligence",
-    text: "Build practical AI solutions and gain hands-on experience applying intelligent technologies to real-world business challenges.",
+    image: "/training-cards/01-artificial-intelligence.png",
+    alt: "Artificial Intelligence",
   },
   {
-    icon: "◌",
-    title: "Data Science",
-    text: "Work with real-world data to uncover insights, identify patterns, and support smarter business decisions.",
+    image: "/training-cards/02-data-science.png",
+    alt: "Data Science",
   },
   {
-    icon: "▣",
-    title: "Machine Learning",
-    text: "Build and work with models that learn from data to predict outcomes, identify patterns, and solve real-world problems.",
+    image: "/training-cards/03-machine-learning.png",
+    alt: "Machine Learning",
   },
   {
-    icon: "♧",
-    title: "AI-Powered DevOps",
-    text: "Apply AI across DevOps workflows to build, test, deploy, and manage software more efficiently.",
+    image: "/training-cards/04-ai-powered-devops.png",
+    alt: "AI-Powered DevOps",
   },
   {
-    icon: "⌁",
-    title: "AI-Powered Digital Marketing",
-    text: "Use AI to understand audiences, create smarter campaigns, personalize experiences, and improve marketing performance.",
+    image: "/training-cards/05-ai-powered-digital-marketing.png",
+    alt: "AI-Powered Digital Marketing",
   },
   {
-    icon: "◇",
-    title: "AI Agent Engineering",
-    text: "Build intelligent AI agents that can understand goals, use tools, perform tasks, and work through real business processes.",
+    image: "/training-cards/06-ai-agent-engineering.png",
+    alt: "AI Agent Engineering",
   },
   {
-    icon: "✦",
-    title: "RAG Engineering",
-    text: "Build AI applications that connect with trusted knowledge to deliver relevant, accurate, and context-aware responses.",
+    image: "/training-cards/07-rag-engineering.png",
+    alt: "RAG Engineering",
   },
   {
-    icon: "✓",
-    title: "Generative AI Engineering",
-    text: "Gain practical experience building applications with modern generative AI to create, understand, and work with content.",
+    image: "/training-cards/08-generative-ai-engineering.png",
+    alt: "Generative AI Engineering",
   },
 ];
 
@@ -101,15 +93,7 @@ function Training() {
         <div className="training-cards">
           {trainingPrograms.map((program, index) => (
             <div className="training-card" key={index}>
-              <div className="training-card-icon">{program.icon}</div>
-
-              <div className="training-card-content">
-                <h2>{program.title}</h2>
-
-                <div className="training-card-line"></div>
-
-                <p>{program.text}</p>
-              </div>
+              <img src={program.image} alt={program.alt} />
             </div>
           ))}
         </div>

@@ -2,42 +2,42 @@ import { Link } from "react-router-dom";
 
 const services = [
   {
-    icon: "◉",
+    image: "/images/ai-business-automation.png",
     title: "AI & Business Automation",
     text: "Automate repetitive work, streamline workflows, and help your teams accomplish more with intelligent AI-powered solutions.",
   },
   {
-    icon: "⌬",
+    image: "/images/machine-learning.png",
     title: "Machine Learning Solutions",
     text: "Build intelligent systems that learn from your business data to predict outcomes, generate recommendations, classify information, and support better decisions.",
   },
   {
-    icon: "▤",
+    image: "/images/data-science.png",
     title: "Data Science & Analytics",
     text: "Turn complex business data into clear insights, uncover meaningful patterns, and identify opportunities for smarter decision-making.",
   },
   {
-    icon: "♙",
+    image: "/images/ai-chatbots.png",
     title: "AI Chatbots & Intelligent Assistants",
     text: "Create intelligent assistants that support customers, empower employees, and strengthen business operations around the clock.",
   },
   {
-    icon: "⟳",
+    image: "/images/custom-ai-solutions.png",
     title: "Custom AI Business Solutions",
     text: "Design and develop practical AI solutions around your unique challenges—from everyday processes to complex business operations.",
   },
   {
-    icon: "☁",
+    image: "/images/devops-cloud.png",
     title: "DevOps & Cloud Engineering",
     text: "Build reliable, scalable, and efficient technology environments that help your applications perform securely and your business operate smoothly.",
   },
   {
-    icon: "↗",
+    image: "/images/ai-digital-marketing.png",
     title: "AI-Powered Digital Marketing",
     text: "Use AI to understand your audience, create smarter campaigns, personalize customer experiences, and improve marketing performance.",
   },
   {
-    icon: "⌖",
+    image: "/images/ai-strategy.png",
     title: "AI Strategy & Consulting",
     text: "Identify where AI, data, automation, and modern technology can create the greatest value for your business and define a practical path forward.",
   },
@@ -73,15 +73,19 @@ function Services() {
         <div className="services-cards">
           {services.map((service, index) => (
             <div className="service-card tech-card" key={index}>
-              <div className="service-icon">{service.icon}</div>
+              <div className="service-image">
+                <img src={service.image} alt={service.title} />
+              </div>
 
-              <h2>{service.title}</h2>
+              <div className="service-card-content">
+                <h2>{service.title}</h2>
 
-              <p>{service.text}</p>
+                <p>{service.text}</p>
 
-              <Link to="/contact" className="service-link">
-                Learn More →
-              </Link>
+                <Link to="/contact" className="service-link">
+                  Learn More →
+                </Link>
+              </div>
             </div>
           ))}
         </div>

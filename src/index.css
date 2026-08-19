@@ -5726,3 +5726,131 @@ button {
 
   min-height: 800px;
 }
+/* =========================
+   TRAINING IMAGE CARDS
+   ========================= */
+
+.training-cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+}
+
+.training-card {
+  width: 100%;
+  height: 100%;
+  aspect-ratio: 1101 / 1403;
+  overflow: hidden;
+  border-radius: 14px;
+  border: 1px solid #00bfff;
+  background: #020b14;
+  padding: 0;
+}
+
+.training-card img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  object-position: center;
+}
+.service-card {
+  overflow: hidden;
+  padding: 0;
+}
+
+.service-image {
+  width: 100%;
+  height: 220px;
+  overflow: hidden;
+}
+
+.service-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.service-card-content {
+  padding: 24px;
+}
+.service-card-content h2 {
+  color: #00bfff;
+}
+.service-card-content p {
+  color: #d9dcdd;
+}
+.why-card-image {
+  width: 110%;
+  height: 190px;
+  overflow: hidden;
+  border-radius: 15px;
+  margin-bottom: 22px;
+}
+
+.why-card-image img {
+  width: 110%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+/* Proper alignment for Why GreenWay cards */
+
+.why-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.why-card-image {
+  width: 100%;
+  height: 180px;
+  overflow: hidden;
+  border-radius: 12px;
+  margin-bottom: 22px;
+  flex-shrink: 0;
+}
+
+.why-card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.why-card h3 {
+  min-height: 72px;
+  margin: 0 0 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.why-divider {
+  margin: 0 auto 22px;
+  flex-shrink: 0;
+}
+
+.why-card p {
+  margin: 0;
+  min-height: 190px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: left;
+  line-height: 1.7;
+}
+
+.why-arrow {
+  margin-top: auto;
+  flex-shrink: 0;
+}
+
+.why-card p {
+  margin: 0;
+  min-height: 190px;
+  text-align: left;
+  line-height: 1.6;
+}
